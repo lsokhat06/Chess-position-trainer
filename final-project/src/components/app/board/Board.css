@@ -1,0 +1,45 @@
+.Board {
+  width: 32vw;
+  height: 32vw;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  margin-top: 5vw;
+  margin-left: 25vw;
+}
+
+.light { background-color: #b58763; }
+.dark { background-color: #f0dab5; }
+
+.square {
+  display: flex;
+  width: 4vw;
+  height: 4vw;
+  position: relative;
+  box-sizing: border-box;
+}
+.squareLetter {
+  align-self: flex-end;
+  font-size: 1.2vmin;
+  position: absolute;
+  margin-left: 0.15vw;
+}
+.squareNumber {
+  font-size: 1.2vmin;
+  position: absolute;
+  right: 0;
+  margin-right: 0.15vw;
+}
+.selected {
+  -webkit-box-shadow: inset 0px 0px 29px 4px rgba(17,247,33,1);
+  -moz-box-shadow: inset 0px 0px 29px 4px rgba(17,247,33,1);
+  box-shadow: inset 0px 0px 29px 4px rgba(17,247,33,1);
+}
+.incorrect {
+  -webkit-box-shadow: 0px 0px 8px 4px #FF0000; 
+  box-shadow: 0px 0px 8px 4px #FF0000;
+}
+.correct {
+  -webkit-box-shadow: 0px 0px 8px 4px #0FFF35; 
+  box-shadow: 0px 0px 8px 4px #0FFF35;
+}
