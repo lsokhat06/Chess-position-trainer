@@ -1,0 +1,16 @@
+.menu {
+	width: 57vw;
+	height: 4vw;
+	margin-left: 21.5vw;
+	margin-top: 5vw;
+	color: white;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	font-size: 3vw;
+	text-align: center;
+}
+
+.menu_item:hover {
+	border-bottom: 0.25vw solid white;
+	padding-bottom: 0.4vw;
+}

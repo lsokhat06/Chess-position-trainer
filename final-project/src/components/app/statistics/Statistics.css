@@ -1,0 +1,35 @@
+.statistics_block {
+	width: 57vw;
+	margin-left: 21.5vw;
+	margin-top: 2vw;
+}
+
+.rating_progress_chart {
+	width: 35vw;
+}
+
+.flexwrapper {
+	display: flex;
+	align-items: flex-start;
+}
+
+.statistics_data {
+	margin-top: 1.7vw;
+	margin-left: 2vw;
+	color: white;
+	font-size: 1vw;
+	height: 15vmax;
+}
+
+.statistics_data>p {
+	margin-top: 0.3vw;
+	font-size: 0.9vmax;
+}
+
+.stats_title {
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+	text-align: center;
+	color: white;
+	font-size: 2vw;
+}

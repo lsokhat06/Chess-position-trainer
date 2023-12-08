@@ -1,0 +1,30 @@
+.preferences {
+	width: 57vw;
+	margin-left: 21.5vw;
+	margin-top: 2vw;
+	color: white;
+}
+
+.table {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-row-gap: 0.5vw;
+}
+
+.tabletext {
+	font-size: 1vw;
+	text-align: center;
+	margin-left: 0.5vw;
+}
+
+.check_item {
+	width: 0.8vw;
+	height: 0.8vw;
+}
+
+.title {
+	text-align: center;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	font-size: 2vw;
+}

@@ -1,0 +1,32 @@
+.info {
+	width: 22vw;
+	height: fit-content;
+	background-color: #252420;
+	color: white;
+	padding: 0.5vw;
+	font-size: 1vw;
+	margin-left: 2vw;
+	margin-top: 2vw;
+}
+.info>p {
+	margin-top: 0.5vw;
+}
+
+.subpanel {
+	display: flex;
+	align-items: center;
+}
+
+.rating {
+	color: #90ee90;
+}
+
+.piece {
+	width: 5vw;
+	height: 5vw;
+}
+
+.green { color: #90ee90; }
+.yellow { color: #fff700; }
+.red { color: #b90e0a; }
+
